@@ -94,6 +94,9 @@
 		AB1520072BD97B5800F47AED /* pettinder */ = {
 			isa = PBXGroup;
 			children = (
+				AB1520342BD98E2600F47AED /* presentation */,
+				AB1520332BD98E1E00F47AED /* domain */,
+				AB1520322BD98E1600F47AED /* data */,
 				AB1520082BD97B5800F47AED /* pettinderApp.swift */,
 				AB15200A2BD97B5800F47AED /* ContentView.swift */,
 				AB15200C2BD97B5900F47AED /* Assets.xcassets */,
@@ -125,6 +128,43 @@
 				AB1520252BD97B5900F47AED /* pettinderUITestsLaunchTests.swift */,
 			);
 			path = pettinderUITests;
+			sourceTree = "<group>";
+		};
+		AB1520322BD98E1600F47AED /* data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		AB1520332BD98E1E00F47AED /* domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		AB1520342BD98E2600F47AED /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				AB1520362BD98E5200F47AED /* screens */,
+				AB1520352BD98E4800F47AED /* components */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		AB1520352BD98E4800F47AED /* components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		AB1520362BD98E5200F47AED /* screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
