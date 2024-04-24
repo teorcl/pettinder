@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB1520092BD97B5800F47AED /* pettinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1520082BD97B5800F47AED /* pettinderApp.swift */; };
+		AB15200B2BD97B5800F47AED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB15200A2BD97B5800F47AED /* ContentView.swift */; };
+		AB15200D2BD97B5900F47AED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB15200C2BD97B5900F47AED /* Assets.xcassets */; };
+		AB1520102BD97B5900F47AED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB15200F2BD97B5900F47AED /* Preview Assets.xcassets */; };
+		AB15201A2BD97B5900F47AED /* pettinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1520192BD97B5900F47AED /* pettinderTests.swift */; };
+		AB1520242BD97B5900F47AED /* pettinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1520232BD97B5900F47AED /* pettinderUITests.swift */; };
+		AB1520262BD97B5900F47AED /* pettinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1520252BD97B5900F47AED /* pettinderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB1520162BD97B5900F47AED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB151FFD2BD97B5800F47AED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB1520042BD97B5800F47AED;
+			remoteInfo = pettinder;
+		};
+		AB1520202BD97B5900F47AED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB151FFD2BD97B5800F47AED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB1520042BD97B5800F47AED;
+			remoteInfo = pettinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB1520052BD97B5800F47AED /* pettinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pettinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1520082BD97B5800F47AED /* pettinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pettinderApp.swift; sourceTree = "<group>"; };
+		AB15200A2BD97B5800F47AED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB15200C2BD97B5900F47AED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB15200F2BD97B5900F47AED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB1520152BD97B5900F47AED /* pettinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pettinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1520192BD97B5900F47AED /* pettinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pettinderTests.swift; sourceTree = "<group>"; };
+		AB15201F2BD97B5900F47AED /* pettinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pettinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1520232BD97B5900F47AED /* pettinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pettinderUITests.swift; sourceTree = "<group>"; };
+		AB1520252BD97B5900F47AED /* pettinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pettinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB1520022BD97B5800F47AED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1520122BD97B5900F47AED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB15201C2BD97B5900F47AED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB151FFC2BD97B5800F47AED = {
+			isa = PBXGroup;
+			children = (
+				AB1520072BD97B5800F47AED /* pettinder */,
+				AB1520182BD97B5900F47AED /* pettinderTests */,
+				AB1520222BD97B5900F47AED /* pettinderUITests */,
+				AB1520062BD97B5800F47AED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB1520062BD97B5800F47AED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB1520052BD97B5800F47AED /* pettinder.app */,
+				AB1520152BD97B5900F47AED /* pettinderTests.xctest */,
+				AB15201F2BD97B5900F47AED /* pettinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB1520072BD97B5800F47AED /* pettinder */ = {
+			isa = PBXGroup;
+			children = (
+				AB1520082BD97B5800F47AED /* pettinderApp.swift */,
+				AB15200A2BD97B5800F47AED /* ContentView.swift */,
+				AB15200C2BD97B5900F47AED /* Assets.xcassets */,
+				AB15200E2BD97B5900F47AED /* Preview Content */,
+			);
+			path = pettinder;
+			sourceTree = "<group>";
+		};
+		AB15200E2BD97B5900F47AED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB15200F2BD97B5900F47AED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB1520182BD97B5900F47AED /* pettinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB1520192BD97B5900F47AED /* pettinderTests.swift */,
+			);
+			path = pettinderTests;
+			sourceTree = "<group>";
+		};
+		AB1520222BD97B5900F47AED /* pettinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB1520232BD97B5900F47AED /* pettinderUITests.swift */,
+				AB1520252BD97B5900F47AED /* pettinderUITestsLaunchTests.swift */,
+			);
+			path = pettinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB1520042BD97B5800F47AED /* pettinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1520292BD97B5900F47AED /* Build configuration list for PBXNativeTarget "pettinder" */;
+			buildPhases = (
+				AB1520012BD97B5800F47AED /* Sources */,
+				AB1520022BD97B5800F47AED /* Frameworks */,
+				AB1520032BD97B5800F47AED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pettinder;
+			productName = pettinder;
+			productReference = AB1520052BD97B5800F47AED /* pettinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB1520142BD97B5900F47AED /* pettinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB15202C2BD97B5900F47AED /* Build configuration list for PBXNativeTarget "pettinderTests" */;
+			buildPhases = (
+				AB1520112BD97B5900F47AED /* Sources */,
+				AB1520122BD97B5900F47AED /* Frameworks */,
+				AB1520132BD97B5900F47AED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB1520172BD97B5900F47AED /* PBXTargetDependency */,
+			);
+			name = pettinderTests;
+			productName = pettinderTests;
+			productReference = AB1520152BD97B5900F47AED /* pettinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB15201E2BD97B5900F47AED /* pettinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB15202F2BD97B5900F47AED /* Build configuration list for PBXNativeTarget "pettinderUITests" */;
+			buildPhases = (
+				AB15201B2BD97B5900F47AED /* Sources */,
+				AB15201C2BD97B5900F47AED /* Frameworks */,
+				AB15201D2BD97B5900F47AED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB1520212BD97B5900F47AED /* PBXTargetDependency */,
+			);
+			name = pettinderUITests;
+			productName = pettinderUITests;
+			productReference = AB15201F2BD97B5900F47AED /* pettinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB151FFD2BD97B5800F47AED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					AB1520042BD97B5800F47AED = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					AB1520142BD97B5900F47AED = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AB1520042BD97B5800F47AED;
+					};
+					AB15201E2BD97B5900F47AED = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AB1520042BD97B5800F47AED;
+					};
+				};
+			};
+			buildConfigurationList = AB1520002BD97B5800F47AED /* Build configuration list for PBXProject "pettinder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB151FFC2BD97B5800F47AED;
+			productRefGroup = AB1520062BD97B5800F47AED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB1520042BD97B5800F47AED /* pettinder */,
+				AB1520142BD97B5900F47AED /* pettinderTests */,
+				AB15201E2BD97B5900F47AED /* pettinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB1520032BD97B5800F47AED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1520102BD97B5900F47AED /* Preview Assets.xcassets in Resources */,
+				AB15200D2BD97B5900F47AED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1520132BD97B5900F47AED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB15201D2BD97B5900F47AED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB1520012BD97B5800F47AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB15200B2BD97B5800F47AED /* ContentView.swift in Sources */,
+				AB1520092BD97B5800F47AED /* pettinderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1520112BD97B5900F47AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB15201A2BD97B5900F47AED /* pettinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB15201B2BD97B5900F47AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1520262BD97B5900F47AED /* pettinderUITestsLaunchTests.swift in Sources */,
+				AB1520242BD97B5900F47AED /* pettinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB1520172BD97B5900F47AED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB1520042BD97B5800F47AED /* pettinder */;
+			targetProxy = AB1520162BD97B5900F47AED /* PBXContainerItemProxy */;
+		};
+		AB1520212BD97B5900F47AED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB1520042BD97B5800F47AED /* pettinder */;
+			targetProxy = AB1520202BD97B5900F47AED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB1520272BD97B5900F47AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB1520282BD97B5900F47AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB15202A2BD97B5900F47AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pettinder/Preview Content\"";
+				DEVELOPMENT_TEAM = M9YYPNK9QF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = calle.teodoro.pettinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB15202B2BD97B5900F47AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pettinder/Preview Content\"";
+				DEVELOPMENT_TEAM = M9YYPNK9QF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = calle.teodoro.pettinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB15202D2BD97B5900F47AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9YYPNK9QF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = calle.teodoro.pettinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pettinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pettinder";
+			};
+			name = Debug;
+		};
+		AB15202E2BD97B5900F47AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9YYPNK9QF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = calle.teodoro.pettinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pettinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pettinder";
+			};
+			name = Release;
+		};
+		AB1520302BD97B5900F47AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9YYPNK9QF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = calle.teodoro.pettinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pettinder;
+			};
+			name = Debug;
+		};
+		AB1520312BD97B5900F47AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9YYPNK9QF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = calle.teodoro.pettinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pettinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB1520002BD97B5800F47AED /* Build configuration list for PBXProject "pettinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1520272BD97B5900F47AED /* Debug */,
+				AB1520282BD97B5900F47AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1520292BD97B5900F47AED /* Build configuration list for PBXNativeTarget "pettinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB15202A2BD97B5900F47AED /* Debug */,
+				AB15202B2BD97B5900F47AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB15202C2BD97B5900F47AED /* Build configuration list for PBXNativeTarget "pettinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB15202D2BD97B5900F47AED /* Debug */,
+				AB15202E2BD97B5900F47AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB15202F2BD97B5900F47AED /* Build configuration list for PBXNativeTarget "pettinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1520302BD97B5900F47AED /* Debug */,
+				AB1520312BD97B5900F47AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB151FFD2BD97B5800F47AED /* Project object */;
+}
