@@ -14,6 +14,12 @@
 		AB15201A2BD97B5900F47AED /* pettinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1520192BD97B5900F47AED /* pettinderTests.swift */; };
 		AB1520242BD97B5900F47AED /* pettinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1520232BD97B5900F47AED /* pettinderUITests.swift */; };
 		AB1520262BD97B5900F47AED /* pettinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1520252BD97B5900F47AED /* pettinderUITestsLaunchTests.swift */; };
+		AB1520382BD991C200F47AED /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1520372BD991C200F47AED /* MainScreen.swift */; };
+		AB1520B22BD9B1D000F47AED /* MessageScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1520B12BD9B1D000F47AED /* MessageScreen.swift */; };
+		AB1520B42BD9B20500F47AED /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1520B32BD9B20500F47AED /* ProfileScreen.swift */; };
+		AB1520B62BD9B22900F47AED /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1520B52BD9B22900F47AED /* HomeScreen.swift */; };
+		ABD446942BE362C8005961FB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD446932BE362C8005961FB /* CardView.swift */; };
+		ABD446962BE36856005961FB /* ImageCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD446952BE36855005961FB /* ImageCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		AB15201F2BD97B5900F47AED /* pettinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pettinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1520232BD97B5900F47AED /* pettinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pettinderUITests.swift; sourceTree = "<group>"; };
 		AB1520252BD97B5900F47AED /* pettinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pettinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB1520372BD991C200F47AED /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		AB1520B12BD9B1D000F47AED /* MessageScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageScreen.swift; sourceTree = "<group>"; };
+		AB1520B32BD9B20500F47AED /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		AB1520B52BD9B22900F47AED /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		ABD446932BE362C8005961FB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		ABD446952BE36855005961FB /* ImageCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +168,8 @@
 		AB1520352BD98E4800F47AED /* components */ = {
 			isa = PBXGroup;
 			children = (
+				ABD446932BE362C8005961FB /* CardView.swift */,
+				ABD446952BE36855005961FB /* ImageCircle.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -163,6 +177,10 @@
 		AB1520362BD98E5200F47AED /* screens */ = {
 			isa = PBXGroup;
 			children = (
+				AB1520372BD991C200F47AED /* MainScreen.swift */,
+				AB1520B12BD9B1D000F47AED /* MessageScreen.swift */,
+				AB1520B32BD9B20500F47AED /* ProfileScreen.swift */,
+				AB1520B52BD9B22900F47AED /* HomeScreen.swift */,
 			);
 			path = screens;
 			sourceTree = "<group>";
@@ -297,8 +315,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABD446942BE362C8005961FB /* CardView.swift in Sources */,
+				ABD446962BE36856005961FB /* ImageCircle.swift in Sources */,
+				AB1520B22BD9B1D000F47AED /* MessageScreen.swift in Sources */,
+				AB1520382BD991C200F47AED /* MainScreen.swift in Sources */,
 				AB15200B2BD97B5800F47AED /* ContentView.swift in Sources */,
+				AB1520B62BD9B22900F47AED /* HomeScreen.swift in Sources */,
 				AB1520092BD97B5800F47AED /* pettinderApp.swift in Sources */,
+				AB1520B42BD9B20500F47AED /* ProfileScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
